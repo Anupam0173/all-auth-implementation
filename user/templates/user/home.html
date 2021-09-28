@@ -12,8 +12,8 @@
     <h1>Welcome  {{user}}</h1>
 
     <button><a href="{% provider_login_url "facebook" method="oauth2" %}">Facebook Login</a></button>
-    <button><a href="{% provider_login_url "facebook" method="js_sdk" %}">Facebook Login by sdk</a></button>
-    
-     <button><a href="{% provider_login_url "google" %}">Google Login</a></button>
+    <button><a href="{% provider_login_url "google" %}">Google Login</a></button>
+    <button><a href="{% provider_login_url "github" process="connect" %}">Github Login1</a></button>
+
 </body>
 </html>
